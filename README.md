@@ -1,8 +1,8 @@
 # Zabbix::Action::Status
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/zabbix/action/status`. To experiment with that code, run `bin/console` for an interactive prompt.
+Toggle Zabbix Actions.
 
-TODO: Delete this and the text above, and describe your gem
+This gem is checked on Zabbix version 2.0.14.
 
 ## Installation
 
@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# 4 and 8 are action_ids
+zabbix_action_status = Zabbix::Action::Status.new('http://example.com/api_jsonrpc.php', %w(4 8))
+
+zabbix_action_status.disable
+zabbix_action_status.enable
+```
 
 ## Development
 
