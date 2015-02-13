@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Shota Miyamoto", "Takashi Masuda"]
   spec.email         = ["miyamoto@feedforce.jp", "masutaka@feedforce.jp"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{Toggle zabbix actions.}
   spec.description   = %q{You can toggle zabbix actions}
   spec.homepage      = "https://github.com/feedforce/zabbix-action-status"
