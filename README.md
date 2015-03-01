@@ -1,4 +1,4 @@
-# Zabbix::Action::Status
+# Zabbix::Action::Status [![Gem Version][gem-badge]][gem-link]
 
 Toggle Zabbix Actions.
 
@@ -43,3 +43,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[gem-badge]: https://badge.fury.io/rb/zabbix-action-status.svg
+[gem-link]: http://badge.fury.io/rb/zabbix-action-status
